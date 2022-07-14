@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans';
 }
 
-.all-dogs{
+.all-dogs {
     /* border: 4px solid purple; */
     /* background-color: purple; */
     display: flex;
@@ -19,7 +19,7 @@ body {
     justify-content: space-evenly;
 }
 
-.dog-profile{
+.dog-profile {
     width: 22rem;
     /* border: 5px solid tomato; */
 }
@@ -42,7 +42,7 @@ ul.traits li {
     font-size: .9rem;
 }
 
-footer{
+footer {
     display: flex;
     height: 25rem;
     text-align: center;
@@ -52,38 +52,41 @@ footer{
 
 }
 
-.image-link1{
+.footer-image {
+    flex: 1 1 auto;
+    color: white;
+    line-height: 25rem;
+}
+
+.image1 {
     background: 
         linear-gradient(
             rgba(166,169,240,.5),
             rgba(166,169,240,.5)
         ),
         url(starter_files/images/donate.jpg);
-    flex: 1 1 auto;
-    color: white;
-    line-height: 25rem;
-}
+    background-size: cover;
+    background-position: center;
+    }
 
-.image-link2{
+.image2 {
     background: 
     linear-gradient(
         rgba(166,169,240,.5),
         rgba(166,169,240,.5)
         ),
         url(starter_files/images/volunteer.jpg);
-    flex: 1 1 auto;
-    color: white;
-    line-height: 25rem;
+    background-size: cover;
+    background-position: center;
 }
 
-.image-link3{
+.image3 {
     background: 
     linear-gradient(
         rgba(166,169,240,.5),
         rgba(166,169,240,.5)
         ),
         url(starter_files/images/location.png);
-    flex: 1 1 auto;
-    color: white;
-    line-height: 25rem;
+    background-size: cover;
+    background-position: center;
 }
