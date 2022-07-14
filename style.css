@@ -42,10 +42,48 @@ ul.traits li {
     font-size: .9rem;
 }
 
-.footer{
+footer{
+    display: flex;
+    height: 25rem;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 4rem;
+
 
 }
 
-.image-link{
+.image-link1{
+    background: 
+        linear-gradient(
+            rgba(166,169,240,.5),
+            rgba(166,169,240,.5)
+        ),
+        url(starter_files/images/donate.jpg);
+    flex: 1 1 auto;
+    color: white;
+    line-height: 25rem;
+}
 
+.image-link2{
+    background: 
+    linear-gradient(
+        rgba(166,169,240,.5),
+        rgba(166,169,240,.5)
+        ),
+        url(starter_files/images/volunteer.jpg);
+    flex: 1 1 auto;
+    color: white;
+    line-height: 25rem;
+}
+
+.image-link3{
+    background: 
+    linear-gradient(
+        rgba(166,169,240,.5),
+        rgba(166,169,240,.5)
+        ),
+        url(starter_files/images/location.png);
+    flex: 1 1 auto;
+    color: white;
+    line-height: 25rem;
 }
