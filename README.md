@@ -1,6 +1,14 @@
 # Build a Dog Adoption Site
 
-## Directions
+## Momentum Boot Camp Project 2
+
+Skills:
+
+- first css project
+- using flexbox
+- overlaying color filter on images
+
+## Below are Project Directions
 
 Your task is to build one page for an animal shelter. You will need to build the HTML and CSS to make this page. The page should look like the following:
 
